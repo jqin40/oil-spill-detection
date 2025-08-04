@@ -35,11 +35,6 @@ We believe that computer vision technology can be used to mitigate the damage to
 - *Numpy*
 
 ## Authors <!--- do not change this line -->
-
-(UPDATE IN README.md)
-List the names and contact information (e.g., email, GitHub profiles) of the authors or contributors.
-
-*EXAMPLE:*
 *This project was completed in collaboration with:*
 - *Jason Qin ([jq2406@nyu.edu](mailto:jq2406@nyu.edu))*
 - *Asad Chaudhry ([achau024@fiu.edu](mailto:achau024@fiu.edu)*

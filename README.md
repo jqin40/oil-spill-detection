@@ -15,12 +15,12 @@ We believe that computer vision technology can be used to mitigate the damage to
 
 ## Methodologies <!--- do not change this line -->
 
-*To accomplish this, we utilized the Keras ResNet18 model to classify images of water bodies with supervised learning. We designed our model to use image normalization to allow the model to identify patterns more easily. Other techniques we incorporated:
-- image augmentation
-- freezing layers
-- early stopping
-- dropout regularization
-- differential learning rates: higher LR for new layers, lower for pre-trained
+To accomplish this, we utilized the Keras ResNet18 model to classify images of water bodies with supervised learning. We designed our model to use image normalization to allow the model to identify patterns more easily. Other techniques we incorporated:
+- Image augmentation
+- Freezing layers
+- Early stopping
+- Dropout regularization
+- Differential learning rates: higher LR for new layers, lower for pre-trained
 
 ## Data Sources <!--- do not change this line -->
 
@@ -37,6 +37,6 @@ We believe that computer vision technology can be used to mitigate the damage to
 ## Authors <!--- do not change this line -->
 *This project was completed in collaboration with:*
 - *Jason Qin ([jq2406@nyu.edu](mailto:jq2406@nyu.edu))*
-- *Asad Chaudhry ([achau024@fiu.edu](mailto:achau024@fiu.edu)*
-- *Chelsea Nguyen ([chelsea.nguyen001@umb.edu](mailto:chelsea.nguyen001@umb.edu)*
-- *Xavier Rush ([xcrush@aggies.ncat.edu](mailto:xcrush@aggies.ncat.edu)*
+- *Asad Chaudhry ([achau024@fiu.edu](mailto:achau024@fiu.edu))*
+- *Chelsea Nguyen ([chelsea.nguyen001@umb.edu](mailto:chelsea.nguyen001@umb.edu))*
+- *Xavier Rush ([xcrush@aggies.ncat.edu](mailto:xcrush@aggies.ncat.edu))*

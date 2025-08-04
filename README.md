@@ -9,38 +9,30 @@ We believe that computer vision technology can be used to mitigate the damage to
 
 ## Key Results <!--- do not change this line -->
 
-1. Used transfer learning to train a ResNet50 CNN on a 300-image dataset to classify oil spill imagery.
+1. Used transfer learning to train a ResNet18 CNN on a 300-image dataset to classify oil spill imagery.
 2. Utilized image transformations to generate images based on pre-existing ones.
 3. Achieved ~86% validation accuracy after training.
 
 ## Methodologies <!--- do not change this line -->
 
-(WORK IN PROGRESS)
-(UPDATE IN README.md)
-
-*EXAMPLE:*
-*To accomplish this, we utilized the OpenAI API to interact with ChatGPT, and we designed a custom Python script to generate diverse prompts and collect corresponding responses. The data was then processed and analyzed using pandas, enabling us to detect patterns and biases in the AI model's outputs.*
-*Engineered a Python script to generate over 1,000 prompts and elicit their responses from ChatGPT, utilizing pandas to collect the data. When prompted for solutions to this specific relevant crisis, nearly 80% of ChatGPT's responses promoted a certain worldview.*
-
+*To accomplish this, we utilized the Keras ResNet18 model to classify images of water bodies with supervised learning. We designed our model to use image normalization to allow the model to identify patterns more easily. Other techniques we incorporated:
+- image augmentation
+- freezing layers
+- early stopping
+- dropout regularization
+- differential learning rates: higher LR for new layers, lower for pre-trained
 
 ## Data Sources <!--- do not change this line -->
 
-(UPDATE IN README.md)
-Include any relevant data sources that were used in your project.
-
-*EXAMPLE:*
-*Kaggle Datasets: [Link to Kaggle Dataset](https://www.kaggle.com/datasets)*
+*Kaggle Datasets: [Marine Oil Spill Detection](https://www.kaggle.com/datasets/afzalofficial/marine-oil-spill-detection)*
 
 ## Technologies Used <!--- do not change this line -->
 
-(UPDATE IN README.md)
-List the technologies, libraries, and frameworks used in your project.
-
-*EXAMPLE:*
 - *Python*
 - *pandas*
-- *OpenAI API*
-
+- *PyTorch*
+- *Matplotlib*
+- *Numpy*
 
 ## Authors <!--- do not change this line -->
 
@@ -49,5 +41,7 @@ List the names and contact information (e.g., email, GitHub profiles) of the aut
 
 *EXAMPLE:*
 *This project was completed in collaboration with:*
-- *John Doe ([john.doe@example.com](mailto:john.doe@example.com))*
-- *Jane Smith ([jane.smith@example.com](mailto:jane.smith@example.com))*
+- *Jason Qin ([jq2406@nyu.edu](mailto:jq2406@nyu.edu))*
+- *Asad Chaudhry ([achau024@fiu.edu](mailto:achau024@fiu.edu)*
+- *Chelsea Nguyen ([chelsea.nguyen001@umb.edu](mailto:chelsea.nguyen001@umb.edu)*
+- *Xavier Rush ([xcrush@aggies.ncat.edu](mailto:xcrush@aggies.ncat.edu)*
